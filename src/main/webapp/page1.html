@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ATM Simulation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            padding: 20px;
+            color: #fff;
+            text-align: center;
+        }
+        
+        h1 {
+            margin: 0;
+        }
+        
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        input[type="text"],
+        input[type="password"] {
+            width: 200px;
+            padding: 5px;
+            font-size: 16px;
+        }
+        
+        input[type="submit"] {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        
+        footer {
+            background-color: #333;
+            padding: 10px;
+            color: #fff;
+            text-align: center;
+        }
+        
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the ATM</h1>
+    </header>
+    
+    <main id="atmPage">
+        <h2>Welcome <span id="loggedInUsername"></span></h2>
+        <h3>ATM Menu</h3>
+        <form action="checkoperation" method="get" >
+        	<button name="check" value="CheckBalance">Check Balance </button>
+        	<button name="check" value="Withdraw">Withdraw </button>   
+        	<button name="check" value="Logut">Logout</button>     	
+        </form>
+    </main>
+    
+    <footer>
+        &copy; 2023 My ATM. All rights reserved.
+    </footer>
+    
+    <!-- <script>
+        var loggedInUsername = document.getElementById("loggedInUsername");
+        var balanceButton = document.getElementById("balanceButton");
+        var withdrawButton = document.getElementById("withdrawButton");
+        var logoutButton = document.getElementById("logoutButton");
+        
+        // Set the logged-in username
+        var urlParams = new URLSearchParams(window.location.search);
+        var username = urlParams.get("username");
+        loggedInUsername.textContent = username;
+        
+        balanceButton.addEventListener("click", function() {
+            // Perform balance checking logic here
+            alert("Your account balance is $1000.");
+        });
+        
+        withdrawButton.addEventListener("click", function() {
+            // Perform withdrawal logic here
+            alert("Please collect your money.");
+        });
+        
+        logoutButton.addEventListener("click", function() {
+            // Redirect to the login page
+            window.location.href = "login.html";
+        });
+    </script> -->
+</body>
+</html>

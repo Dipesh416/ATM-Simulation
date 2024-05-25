@@ -69,7 +69,7 @@
        <h3>Collect Your Cash</h3>
        
        
-       <button><a href="home.html">EXIT</a></button>
+       <button><a href="index.html">EXIT</a></button>
        
         <!-- <form id="atmForm" action="findaccount" method="get">
             <label for="accnumber">Enter Account Number:</label>

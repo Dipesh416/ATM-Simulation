@@ -67,7 +67,7 @@
         <h3>Wrong Account Number and Password</h3><br><br>
        
        
-       <button><a href="home.html">EXIT</a></button>
+       <button><a href="index.html">EXIT</a></button>
        
         <!-- <form id="atmForm" action="findaccount" method="get">
             <label for="accnumber">Enter Account Number:</label>

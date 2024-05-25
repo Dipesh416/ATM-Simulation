@@ -26,7 +26,7 @@ public class CheckOperation extends HttpServlet {
 			res.sendRedirect("withdraw.jsp");
 		}
 		else {
-			res.sendRedirect("home.html");
+			res.sendRedirect("index.html");
 		}
 	}
 	

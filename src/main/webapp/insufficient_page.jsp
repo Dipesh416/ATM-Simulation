@@ -60,7 +60,7 @@
     
     <main>
         <h2>Insufficient Balance</h2><br><br>
-       <button><a href="home.html">EXIT</a></button>       
+       <button><a href="index.html">EXIT</a></button>       
     </main>
     <footer>
         &copy; 2023 My ATM. All rights reserved.
